@@ -58,33 +58,6 @@ class _CounterState extends State<Counter> {
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/structure');
-              },
-              child: const Text('Перейти на рисунок через Structure'),
-            ),
-            const SizedBox(height: 10),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/images');
-              },
-              child: const Text('Перейти на изображения'),
-            ),
-            const SizedBox(height: 10),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/drawing');
-              },
-              child: const Text('Перейти на рисование'),
-            ),
-            const SizedBox(height: 10),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/supabase');
-              },
-              child: const Text('Перейти на регистрацию'),
-            ),
           ],
         ),
       ),
